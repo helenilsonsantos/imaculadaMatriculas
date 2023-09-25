@@ -22,9 +22,9 @@ function Footer () {
                 <div id = 'redesSociais'>
                     <b>Redes Sociais</b>
                     <span>
-                        <Link to='https://www.facebook.com/cicdesde1990' target={target}><img src={facebookImg} alt = 'página do facebook do colégio imaculada conceição' width={40}/></Link>
-                        <Link to='https://www.instagram.com/colegioimaculada.cic' target={target}><img src={intagramImg} alt = 'página do facebook do colégio imaculada conceição' width={40}/></Link>
-                        <Link to='https://www.youtube.com/@colegioimaculadaconceicao-4060' target={target}><img src={youtubeImg} alt = 'página do facebook do colégio imaculada conceição' width={40}/></Link>
+                        <a href='https://www.facebook.com/cicdesde1990' target={target}><img src={facebookImg} alt = 'página do facebook do colégio imaculada conceição' width={40}/></a>
+                        <a href='https://www.instagram.com/colegioimaculada.cic' target={target}><img src={intagramImg} alt = 'página do facebook do colégio imaculada conceição' width={40}/></a>
+                        <a href='https://www.youtube.com/@colegioimaculadaconceicao-4060' target={target}><img src={youtubeImg} alt = 'página do facebook do colégio imaculada conceição' width={40}/></a>
                     </span>
                 </div>
 
