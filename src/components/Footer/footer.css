@@ -1,0 +1,68 @@
+#footer {
+    background-color: #216090;
+    color: #F1F1F3;
+    width: 100%;
+    height: max-content;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    text-align: justify;
+}
+
+#footer p, #footer a {
+    font-size: 0.8rem;
+}
+
+#contienerRodape {
+    width: 100%;
+    max-width: 1500px;
+    margin: 0 auto;
+    display: grid;
+    gap: 50px;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    justify-self: center;
+    align-self: center;
+}
+
+#redesSociais {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+#redesSociais img {
+    padding: 5px 20px 0 0;
+}
+
+
+#linksUteisRodape {
+    display: flex;
+    flex-direction: column;
+}
+
+#linksUteisRodape a, #desenvolvimentoDados a {
+    text-decoration: none;
+    color: #F1F1F3;
+    transition: all 300ms ease-in-out;
+}
+
+#linksUteisRodape a:hover, #desenvolvimentoDados a:hover {
+    color: #00C4B6;
+}
+
+#desenvolvimentoDados {
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* RESPONSIVIDADE DO COMPONETE*/
+
+@media (max-width: 1000px) {
+    #footer {
+        padding: 30px 20px;
+    }
+
+    #contienerRodape {
+        gap: 30px;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    }
+}

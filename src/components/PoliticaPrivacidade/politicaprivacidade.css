@@ -1,0 +1,63 @@
+#conteudoContienerPrivacidade {
+    display: flex;
+    flex-direction: column;
+    max-width: 1500px;
+    margin: 0 auto;
+    animation: animacaoConteudo 0.5s;
+}
+
+@keyframes animacaoConteudo {
+    0% {
+        opacity: 0%;
+    }
+    100% {
+        opacity: 100%;
+    }
+}
+
+#tituloPoliticaPrivacidade {
+    border-bottom: black solid 1px;
+    margin: 50px 20px;
+}
+
+
+#conteudoContienerPrivacidade p {
+    margin: 20px;
+    text-align: justify;
+    text-indent: 4rem;
+    box-sizing: border-box;
+}
+
+#conteudoContienerPrivacidade h2, #conteudoContienerPrivacidade h3, #conteudoContienerPrivacidade li {
+    margin: 20px;
+    text-align: justify;
+}
+
+#conteudoContienerPrivacidade h2 {
+    margin-top: 50px;
+}
+
+#paginaPoliticaPrivacidade li {
+    margin: 0 20px;
+}
+
+/* RESPONSIVIDADE DA PÁGINA */
+
+@media (max-width: 1000px) {
+
+    #tituloPoliticaPrivacidade {
+        margin: 10px;
+        text-align: center;
+    }
+
+    #conteudoContienerPrivacidade p:nth-child(1) {
+        margin-top: 30px;
+        text-indent: 2rem;
+    }
+
+    #conteudoContienerPrivacidade p {
+        margin: 20px;
+        text-indent: 2rem;
+    }
+}
+

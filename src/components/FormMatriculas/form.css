@@ -1,0 +1,57 @@
+.formMatriculas {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #F1F1F3;
+    padding: 50px 0;
+    box-sizing: border-box;
+}
+
+.formMatriculas section{
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.formMatriculas span {
+    flex: 1 0 200px;
+    display: flex;
+    flex-direction: column;
+    margin: 5px 0;
+}
+
+.forMatriculasContent {
+    background-color: #F5F6FA;
+    padding: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.btnFormEnviar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btnFormEnviar input[type=checkbox] {
+    width: 30px;
+}
+
+@media (max-width: 1000px) {
+
+    .btnFormEnviar {
+        flex-direction: column;
+        justify-content: center;
+        gap: 15px;
+    }
+    
+    .btnFormEnviar div {
+        text-align: center;
+    }
+}

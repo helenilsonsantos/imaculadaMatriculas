@@ -1,0 +1,68 @@
+.containerHeader {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../../assets/img/header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    mask-image: linear-gradient(to top, transparent -10%, #FFFFFF 40%);
+}
+.contentHeader {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    padding: 5%;
+    box-sizing: border-box;
+    height: 100vh;
+    gap: 20%;
+    line-height: 200%;
+}
+
+.containerHeader span {
+   margin-right: 15%;
+}
+
+.logoImaculada {
+    position: absolute;
+    top: 4%;
+    left: 5%;
+    width: 100px;
+}
+
+.btnDefault {
+    padding: 12px 30px;
+    border-radius: 20px;
+    border: none;
+    background-color: #216090;
+    color: #F1F1F3;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 300ms ease-in-out;
+}
+
+.btnDefault:hover {
+    background-color: #00C4B6;
+}
+
+.btnPreMatricula {
+    position: absolute;
+    top: 5%;
+    right: 3%;
+}
+
+.btnMatriculas2024 {
+    display: flex;
+    gap: 20px;
+    margin: 10px 0;
+}
+
+@media (max-width: 1000px) {
+
+    .btnPreMatricula {
+        display: none;
+    }
+    .imgAluno {
+        display: none;
+     }
+}

@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2? família= Poppins:wght@400;500;700;900 & display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #FFFFFF;
+    font-size: clamp(12px, 14px, 16px);
+}
+
+input, select, textarea {
+    padding: 10px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid rgba(120,143,156, 0.4);
+    margin: 5px 0;
+}
+
+input:focus, select:focus, textarea:focus {
+    border: 1px solid rgb(120,143,156);
+}
