@@ -97,6 +97,10 @@
         width: 100%;
     }
     #matriculasAbertas {
+        position: absolute;
         width: 100%;
+        max-width: 400px;
+        max-height: 400px;
+        bottom: 0;
     }
 }
