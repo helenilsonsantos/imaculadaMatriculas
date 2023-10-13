@@ -7,20 +7,19 @@
     mask-image: linear-gradient(to top, transparent -10%, #FFFFFF 40%);
 }
 .contentHeader {
-    position: relative;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
     width: 100%;
-    padding: 5%;
-    box-sizing: border-box;
     height: 100vh;
-    gap: 20%;
+    box-sizing: border-box;
+    gap: 20px;
     line-height: 200%;
+    overflow: hidden;
 }
 
-.containerHeader span {
-   margin-right: 15%;
+.contentHeader span:nth-child(1) {
+    padding: 5%;
 }
 
 .logoImaculada {
@@ -57,12 +56,37 @@
     margin: 10px 0;
 }
 
+.imgAluno {
+    height: 100vh;
+    width: 50%;
+    position: relative;
+}
+
+#matriculasAbertas {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: clamp(400px, 600px, 800px);
+    border-radius: 50% 0 0 0;
+    overflow: hidden;
+}
+
 @media (max-width: 1000px) {
+
+    .contentHeader {
+        flex-direction: column;
+    }
+
+    .contentHeader span:nth-child(1) {
+        position: absolute;
+        margin-right: 42%;
+        z-index: 10;
+    }
 
     .btnPreMatricula {
         display: none;
     }
     .imgAluno {
-        display: none;
-     }
+        width: clamp(100px, 150px, 200px);
+    }
 }
