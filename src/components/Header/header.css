@@ -74,19 +74,31 @@
 @media (max-width: 1000px) {
 
     .contentHeader {
-        flex-direction: column;
+        display: block;
+        height: 100vh;
     }
 
     .contentHeader span:nth-child(1) {
         position: absolute;
-        margin-right: 42%;
-        z-index: 10;
+        padding: 20px;
+        margin-top: 190px;
+        width: 100%;
+        height: 170px;
+        box-sizing: border-box;
     }
 
     .btnPreMatricula {
         display: none;
     }
+
     .imgAluno {
-        width: clamp(100px, 150px, 200px);
+        position: absolute;
+        margin-top: 400px;
+        height: 400px;
+        width: 100%;
+    }
+    #matriculasAbertas {
+        width: 100%;
+        height: max-content;
     }
 }
