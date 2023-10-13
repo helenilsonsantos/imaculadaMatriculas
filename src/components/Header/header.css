@@ -74,7 +74,6 @@
 
     .contentHeader {
         display: block;
-        overflow: hidden;
     }
 
     .contentHeader span:nth-child(1) {
@@ -84,6 +83,7 @@
         width: 100%;
         height: 170px;
         box-sizing: border-box;
+        z-index: 10;
     }
 
     .btnPreMatricula {
