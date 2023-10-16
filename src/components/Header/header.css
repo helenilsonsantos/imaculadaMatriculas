@@ -4,7 +4,7 @@
     background-image: url(../../assets/img/header.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    mask-image: linear-gradient(to top, transparent -10%, #FFFFFF 40%);
+    mask-image: linear-gradient(to top, transparent -10%, #FFFFFF 25%);
 }
 .contentHeader {
     display: flex;
@@ -71,6 +71,10 @@
 }
 
 @media (max-width: 1000px) {
+
+    .containerHeader {
+        mask-image: linear-gradient(to top, transparent -10%, #FFFFFF 10%)
+    }
 
     .contentHeader {
         display: block;
